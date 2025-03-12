@@ -6,7 +6,6 @@ component "ec2" {
 
   inputs = {
     region = each.value
-    infra_env = each.value
   }
 
   providers = {

@@ -1,7 +1,7 @@
 variable instance_size {
     type = string
     description = "ec2 web server size"
-    default = "t3.small"
+    default = "t2.micro"
 }
  
 variable instance_root_device_size {

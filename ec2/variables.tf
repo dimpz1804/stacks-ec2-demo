@@ -1,8 +1,3 @@
-variable infra_env {
-    type = string
-    description = "infrastructure environment"
-}
-  
 variable instance_size {
     type = string
     description = "ec2 web server size"

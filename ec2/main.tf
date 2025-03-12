@@ -27,7 +27,7 @@ resource "aws_instance" "stacks_demo" {
   }
 }
  
-resource "aws_eip" "ec2_eip" {
+/*resource "aws_eip" "ec2_eip" {
   vpc      = true
   lifecycle {
     prevent_destroy = true
@@ -37,4 +37,4 @@ resource "aws_eip" "ec2_eip" {
 resource "aws_eip_association" "eip_assoc" {
   instance_id   = aws_instance.stacks_demo.id
   allocation_id = aws_eip.ec2_eip.id
-}
+}*/
